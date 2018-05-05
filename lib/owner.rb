@@ -17,5 +17,9 @@ class Owner
     @@count
   end
 
+  def say_species
+    "I am a human"
+  end
+
 
 end
