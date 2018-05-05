@@ -54,8 +54,8 @@ class Owner
   end
 
   def sell_pets
-    self.pets.each do |pets, petcount|
-      [pets]=[]
+    self.pets.each do |petkeys, petarray|
+      petarray.clear
     end
   end
 
