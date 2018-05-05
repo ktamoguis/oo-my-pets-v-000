@@ -54,12 +54,13 @@ class Owner
   end
 
   def sell_pets
-    self.pets.each do |pets|
-      each.pets[:pets]
+    self.pets.each do |pets, petcount|
+      [pets]=[]
+    end
   end
 
   def list_pets
-    
+  end
 
 
 
