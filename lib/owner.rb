@@ -55,7 +55,7 @@ class Owner
 
   def sell_pets
     self.pets.each do |petkeys, petarray|
-      petarray.each {|pets| pets.moode = "nervous"} 
+      petarray.each {|pets| pets.mood = "nervous"}
       petarray.clear
     end
   end
