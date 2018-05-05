@@ -1,7 +1,7 @@
 class Owner
   # code goes here
   attr_reader :species
-  attr_accessor :name
+  attr_accessor :name, :pets
 
   @@all = []
   @@count = 0
@@ -22,8 +22,8 @@ class Owner
     "I am a human"
   end
 
-  
-    
+
+
 
 
 end
