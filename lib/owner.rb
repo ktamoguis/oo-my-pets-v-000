@@ -58,6 +58,9 @@ class Owner
       each.pets[:pets]
   end
 
+  def list_pets
+    
+
 
 
 
