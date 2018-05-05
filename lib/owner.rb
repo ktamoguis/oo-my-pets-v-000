@@ -1,9 +1,13 @@
 class Owner
   # code goes here
-  attr_accessor :count
-  
+  attr_accessor :
+
   @@all = []
   @@count = 0
+
+  def initialize(species)
+    @species = species
+  end
 
   def self.all
     @@all
@@ -13,5 +17,5 @@ class Owner
     @@count
   end
 
-  
+
 end
