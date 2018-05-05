@@ -9,6 +9,7 @@ class Owner
   def initialize(species="human",pets = {:fishes => [], :dogs => [], :cats => []})
     @species = species
     @pets = pets
+    @@count += 1
   end
 
   def self.all
