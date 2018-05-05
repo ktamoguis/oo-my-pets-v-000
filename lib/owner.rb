@@ -20,6 +20,10 @@ class Owner
     @@count
   end
 
+  def self.reset_all
+    @@count = 0
+  end
+
   def say_species
     "I am a human."
   end
