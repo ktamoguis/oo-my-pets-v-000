@@ -42,8 +42,17 @@ class Owner
   end
 
   def walk_dogs
-    self.pets[:dogs].each {|doginstance| doginstance.mood = "happy"}
+    self.pets[:dogs].each {|petinstance| petinstance.mood = "happy"}
   end
+
+  def play_with_cats
+    self.pets[:cats].each {|petinstance| petinstance.mood = "happy"}
+  end
+
+  def feed_fish
+    self.pets[:fish].each {|petinstance| petinstance.mood = "happy"}
+  end
+    
 
 
 
